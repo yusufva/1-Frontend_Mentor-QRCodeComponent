@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <div className='w-[320px] rounded-2xl bg-white grid'>
         <aside className='mx-auto mt-[12px] '>
-            <img src='image-qr-code.png' className='w-[288px] h-[288px] rounded-2xl ' />
+            <img src='image-qr-code.png' className='w-[288px] h-[288px] rounded-2xl ' alt="Front mentor QR Code" />
         </aside>
         <article className=' grid gap-y-[16px] mt-[32px] mx-[21px] justify-self-center'>
             <h1 className='font-bold text-xl flex text-center'>
